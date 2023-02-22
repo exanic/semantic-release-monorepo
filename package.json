@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "Plugins for `semantic-release` allowing it to be used with a monorepo.",
   "main": "src/index.js",
+  "repository": "https://github.com/exanic/semantic-release-monorepo.git",
   "files": [
     "src"
   ],
