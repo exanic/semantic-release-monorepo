@@ -1,6 +1,6 @@
 {
-  "name": "semantic-release-monorepo",
-  "version": "1.0.2",
+  "name": "@exanic/semantic-release-monorepo",
+  "version": "1.0.3",
   "description": "Plugins for `semantic-release` allowing it to be used with a monorepo.",
   "main": "src/index.js",
   "repository": "https://github.com/exanic/semantic-release-monorepo.git",
@@ -23,12 +23,12 @@
     "pkg-up": "^2.0.0",
     "ramda": "^0.25.0",
     "read-pkg": "^5.0.0",
+    "file-url": "^3.0.0",
     "semantic-release-plugin-decorators": "^3.0.0"
   },
   "devDependencies": {
     "get-stream": "^6.0.1",
     "git-log-parser": "^1.2.0",
-    "file-url": "^3.0.0",
     "p-each-series": "^2.1.0",
     "fs-extra": "^10.0.1",
     "husky": "^4.2.1",
@@ -50,8 +50,6 @@
     ]
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com",
-    "tag": "latest"
+    "registry": "https://npm.pkg.github.com"
   }
 }
-
