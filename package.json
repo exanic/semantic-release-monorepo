@@ -47,5 +47,9 @@
     "*.js": [
       "yarn format"
     ]
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "tag": "latest"
   }
 }
